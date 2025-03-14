@@ -27,14 +27,14 @@ Follow these steps to deploy the **Databricks Workflow Advisor Dashboard** in yo
 1. **Clone the Repository:**
    ```bash
    git clone <repo-url>
-   cd databricks-workflow-advisor-dashboard
+   cd Workflowadvisor
    ```
 
 2. **Import the Dashboard Template:**
    - Navigate to your Databricks workspace.
-   - Go to the `SQL` workspace.
-   - Click **Dashboards** → **Import**.
-   - Select the provided `.json` dashboard template file from this repository.
+   - Go to the `SQL` section of the nav bar and select `Dashboards`.
+   - Click **Create dashboard** dropdown → **Import dashboard from a file**.
+   - Select the provided `lvdash.json` dashboard template file from this repository.
 
 3. **Configure Data Sources:**
    - Ensure your system tables are correctly set up.
@@ -69,4 +69,4 @@ We welcome contributions! Feel free to open issues or submit pull requests for i
 This project is licensed under the [DB License](LICENSE.md).
 
 ## Support
-For questions or feedback, please reach out via the GitHub Issues tab or contact your Databricks representative.
+For questions or feedback, please reach out via the GitHub Issues tab or contact your Databricks account team.
