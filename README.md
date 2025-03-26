@@ -39,7 +39,6 @@ Follow these steps to deploy the **Databricks Workflow Advisor Dashboard** in yo
 3. **Configure Data Sources:**
    - Ensure your system tables are correctly set up with the following schemas enabled:
      - `lakeflow`
-     - `workflow`
      - `billing`
      - `compute`
    - Update dataset queries to match your workspace IDs, schemas, and desired filters.
